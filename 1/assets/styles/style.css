@@ -1,0 +1,144 @@
+body {
+    background-color: rgb(51, 51, 51, 51);
+}
+
+.header,
+.main,
+.aside,
+.footer,
+.variation,
+.networks {
+    border: 1px solid rgba(224, 172, 104, 0.849);
+    border-radius: 2%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+
+    height: 100vh;
+    width: 1100px;
+    margin: auto;
+}
+
+.wrapper1 {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.header {
+    height: 10%;
+
+}
+
+.main {
+    flex-shrink: 0;
+    width: 70%;
+    height: 100%;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    height: 15%;
+    width: 100%;
+}
+
+.real_name {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 15%;
+}
+
+.variations {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: stretch;
+
+    height: 70%;
+}
+
+.variation {
+    width: 49%;
+}
+
+#website_name {
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+.about {
+    font-family: 'Monsterat', sans-serif;
+    color: rgba(224, 172, 104, 0.849);
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-transform: uppercase;
+}
+
+.about {
+    color: rgba(255, 255, 255, 0.719);
+}
+
+#put_here {
+    height: 25px;
+
+}
+
+#name {
+    height: 18px;
+    width: 170px;
+
+    background-color: rgba(51, 51, 51, 0.151);
+}
+
+.social_network {
+    display: flex;
+    justify-content: space-around;
+
+    width: 100%;
+    height: 70%;
+}
+
+.follow {
+    text-align: center;
+}
+
+.foto {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.networks {
+    flex-grow: 1;
+
+    height: 50%;
+    padding-left: 10%;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.719);
+}
+
+a:hover {
+    color: rgba(224, 172, 104, 0.849);
+    text-decoration: underline;
+}
